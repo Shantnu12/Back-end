@@ -1,0 +1,147 @@
+/* Global styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(images/anime-school-background-1kxla08umytrwgnk.jpg);
+    background-color: #fcc8c8;
+  }
+  #bg-color{
+    background-color: #d79e9e;
+  }
+  /* Navigation bar styles */
+  .navbar {
+    background-color: #333;
+  }
+  
+  .nav-link {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: #fff;
+    border: none;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-img-top {
+    object-fit: contain;
+    height: 450px;
+    width: 100%;
+
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card-text {
+    margin-bottom: 1rem;
+  }
+  
+  /* Form styles */
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+   
+  }
+  
+  .form-control {
+    margin-bottom: 1rem;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-submit {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .form-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  form {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #9fdada;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  input[type=text], input[type=email], input[type=tel], input[type=number], select, textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  input[type=submit] {
+    background-color: #18438d;
+    color: white;
+    object-position: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
